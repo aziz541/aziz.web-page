@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #f0a500;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Section Styles */
+section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#home {
+    background: url('https://wallpapercave.com/wp/wp2095814.png') no-repeat center center/cover;
+    color: #1613b5;
+    position: relative;
+}
+
+#home div {
+    background-color: rgba(175, 199, 59, 0.7);
+    padding: 2rem;
+    display: inline-block;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#home h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#home button {
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+#home button:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
+}
+
+/* About Section Styles */
+#about {
+    background-color: #212121;
+    padding: 4rem 2rem;
+    color: #e0e0e0;
+}
+
+#about div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f0a500;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Card Section Styles */
+#best {
+    background-color: #14c3af;
+    padding: 4rem 2rem;
+}
+
+#best h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #f0a500;
+}
+
+#best .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#best .card {
+    background-color: #292929;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 2rem);
+    max-width: calc(33.333% - 2rem);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#best .card:hover {
+    transform: translateY(-10px);
+    background-color: #373737;
+}
+
+#best .card img {
+    width: 100%;
+    border-bottom: 1px solid #444;
+}
+
+#best .container {
+    padding: 1rem;
+}
+
+#best .container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #f0a500;
+}
+
+#best .container p {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+#best .container h5 {
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ee1da8;
+    padding: 2rem;
+    text-align: center;
+    color: #cc2424;
+}
+
+footer h3 {
+    margin-bottom: 1rem;
+    color: #f0a500;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer ul li a {
+    color: #f0a500;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #ff6347;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
